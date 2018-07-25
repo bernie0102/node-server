@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "$USER"
+
 set -e
 
 export PATH=$PATH:/usr/local/bin/
