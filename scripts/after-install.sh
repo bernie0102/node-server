@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "$USER"
+su - ec2-user
 
 set -e
 
