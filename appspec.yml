@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: bin
-    destination: /home/ec2-user/node-server
+    destination: /home/ec2-user/node-server/bin
 permissions:
   - object: /home/ec2-user
     owner: ec2-user
