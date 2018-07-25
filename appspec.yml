@@ -13,7 +13,7 @@ permissions:
 hooks:
   BeforeInstall:
     - location: ./scripts/root-kill.sh
-        timeout: 900
+      timeout: 900
     - location: ./scripts/before-install.sh
       timeout: 900
       runas: ec2-user
