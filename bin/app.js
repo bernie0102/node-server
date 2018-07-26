@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 app.get('/', async (req, res, next) => {
-  res.status(200).send({msg: 'Hello Node Server 2'});
+  res.status(200).send({msg: 'Hello Node Server 21'});
 });
 
 const server = http.createServer(app);
